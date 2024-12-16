@@ -1,0 +1,19 @@
+{
+  "name": "certbot",
+  "version": "1.0.0",
+  "description": "# 2. 安装certbot https://www.jianshu.com/p/32e110a27d3d",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/alidns20150109": "^3.4.7",
+    "ini": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/ini": "^4.1.1",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": []
+}
