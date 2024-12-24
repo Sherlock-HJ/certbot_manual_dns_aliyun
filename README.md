@@ -8,10 +8,13 @@
 
 #### 使用方法：
 0. 安装certbot, nodejs
-1. 创建`credentials.ini`文件放阿里云的密钥，格式[看这里](https://github.com/tengattack/certbot-dns-aliyun?tab=readme-ov-file#credentials-file)
-2. 创建`domains.txt`文件，将域名列表放入
-3. 执行`sh run.sh --dry-run` 测试下是否能成功
-4. 若成功，执行`sh run.sh`
+0. git clone https://github.com/Sherlock-HJ/certbot_manual_dns_aliyun
+0. cd certbot_manual_dns_aliyun
+0. npm install
+0. 创建`credentials.ini`文件放阿里云的密钥，格式[看这里](https://github.com/tengattack/certbot-dns-aliyun?tab=readme-ov-file#credentials-file)
+0. 创建`domains.txt`文件，将域名列表放入
+0. 执行`sh run.sh --dry-run` 测试下是否能成功
+0. 若成功，执行`sh run.sh`
 
 
 #### 运行环境：`macos15.0.1  brew install certbot`
